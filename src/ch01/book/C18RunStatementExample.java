@@ -1,6 +1,6 @@
 package ch01.book;
 
-public class RunStatementExample {
+public class C18RunStatementExample {
 	public static void main(String[] args) {
 		int x = 1;  //변수 x를 선언하고 1을 저장
 		int y = 2;  //변수 y를 선언하고 2를 저장
