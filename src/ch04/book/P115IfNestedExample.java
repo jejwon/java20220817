@@ -12,8 +12,8 @@ public class P115IfNestedExample {
 				grade = "A+";
 			} else {
 				grade = "A";
-			}
-			} else {
+			} 
+			} else { //첫번째 if의 else
 				if (score >= 85) {
 					grade = "B+";
 				} else {
