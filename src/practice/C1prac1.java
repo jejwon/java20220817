@@ -22,7 +22,8 @@ public class C1prac1 {
 		System.out.println("7 :" + -i); //-6
 		System.out.println("8 :" + -++j); //-2
 		
-		
+		String s = 3 + 3+ "3";
+		System.out.println(s);
 		
 		
 	} 
