@@ -18,6 +18,8 @@ public class Ex07 {
 			System.out.println("선택> ");
 			
 			int user = scanner.nextInt();
+			int scores[];
+			
 			
 			switch (user) {
 			case 1:
