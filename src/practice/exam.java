@@ -10,6 +10,10 @@ public class exam {
 		System.out.println(i);
 		}
 		System.out.println(i);
+		
+		
+		String str = "turner";
+		System.out.println(str.equals("not"));
 	}
 	
 	}
