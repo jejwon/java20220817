@@ -8,8 +8,8 @@ public class Member {
 	
 	
 	
-	Member(String n, String i){
-		name = n;
-		id = i;
+	Member(String name, String id){
+		this.name = name;
+		this.id = id;
 	}
 }
