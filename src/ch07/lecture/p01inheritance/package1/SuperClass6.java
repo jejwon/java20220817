@@ -7,7 +7,7 @@ public class SuperClass6 {
 	
 	
 	void packagePrivateMethod(){
-		privateMethod();
+//		privateMethod();
 	}
 	
 	protected void protectedMethod() {
