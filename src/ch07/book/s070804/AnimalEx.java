@@ -12,20 +12,20 @@ public class AnimalEx {
 		//변수의 자동 타입 변환
 		
 		Animal animal = null;
-		animal = new Dog();
-		animal.sound(); 
+		animal = new Dog(); //자동타입변환
+		animal.sound(); //재정의된 메소드 호출
 		
-		animal = new Cat();
-		animal.sound();
+		animal = new Cat(); //자동타입변환
+		animal.sound(); //재정의된 메소드 호출 
 		
 		System.out.println("---------");
 		
 		//메소드의 다형성 
-		animalSound (new Dog());
-		animalSound(new Cat());
+		animalSound (new Dog()); //자동타입변환
+		animalSound(new Cat()); //자동타입변환
 	}
 	
 	public static void animalSound(Animal animal) {
-		animal.sound();
-	}
+		animal.sound(); //재정의된 메소드 호출
+	} 
 }
