@@ -1,9 +1,9 @@
-package ch08.book.s00502;
+package ch08.book.s080502;
 
 public class HankookTire implements Tire{
 
 	@Override
-	public void run() {
+	public void roll() {
 	System.out.println("한국 타이어가 굴러갑니다.");
 	}
 	
