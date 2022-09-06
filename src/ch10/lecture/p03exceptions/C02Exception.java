@@ -1,5 +1,6 @@
 package ch10.lecture.p03exceptions;
 
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 public class C02Exception {
@@ -10,8 +11,8 @@ public class C02Exception {
 		//작성 안했으면 컴파일 안됨
 		
 		try {
+			FileReader fr = new FileReader("");
 			
-			FileReader fr = new FileReader();
 		} catch(FileNotFoundException e) {
 			System.out.println("파일이 없음");
 		}
